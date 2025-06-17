@@ -14,6 +14,5 @@ manifest:
     - name: dac_manu_2
       remote: dac_manu_2_base
       revision: main
-      import: west.yml
   self:
     path: config
