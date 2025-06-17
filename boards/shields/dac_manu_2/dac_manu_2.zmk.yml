@@ -1,0 +1,8 @@
+file_format: "1"
+id: dac_manu_2
+name: Dac Manu 2
+type: shield
+url: https://github.com/coupor/dac_manu_2
+requires: [nice_nano_v2]
+features:
+  - keys

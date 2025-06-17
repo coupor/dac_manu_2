@@ -1,0 +1,7 @@
+if SHIELD_DAC_MANU_2
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "Dac Manu 2"
+
+endif
