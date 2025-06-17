@@ -23,7 +23,7 @@
 &kp LSHFT       &kp A    &kp S     &kp D     &kp F      &kp G            &kp H               &kp J    &kp K     &kp L    &kp MINUS &lt 2 SQT
 &kp LCTRL       &kp Z    &kp X     &kp C     &kp V      &kp B            &kp N               &kp M    &kp COMMA &kp DOT  &kp FSLH  &kp LSHFT
                          &kp ENTER &kp DEL   &kp TAB    &kp LCTRL        &mt LALT ESC        &kp SPC  &kp BSPC  &kp ENTER
-                                   &kp LSHFT &kp KAPP   &kp LGU          &lt 3 INT_HENKAN &kp RGUI &kp RSHFT
+                                   &kp LSHFT &kp KAPP   &kp LGUI         &lt 3 INT_HENKAN    &kp RGUI &kp RSHFT
              >;
           };
 
