@@ -19,7 +19,7 @@
              bindings = <
 &kp PAUSE_BREAK &kp N1   &kp N2    &kp N3    &kp N4     &kp N5           &kp N6              &kp N7   &kp N8    &kp N9    &kp N0   &kp SLCK
 &kp BSLH        &kp Q    &kp W     &kp E     &kp R      &kp T            &kp Y               &kp U    &kp I     &kp O    &kp P     &kp GRAVE
-&kp LSHFT       &kp A    &kp S     &kp D     &kp F      &kp G            &kp H               &kp J    &kp K     &kp L    &kp MINUS &lt LWER SQT
+&kp LSHFT       &kp A    &kp S     &kp D     &kp F      &kp G            &kp H               &kp J    &kp K     &kp L    &kp MINUS &lt 2 SQT
 &kp LCTRL       &kp Z    &kp X     &kp C     &kp V      &kp B            &kp N               &kp M    &kp COMMA &kp DOT  &kp FSLH  &kp LSHFT
                          &kp ENTER &kp DEL   &kp TAB    &kp LCTRL        &mt LALT ESC        &kp SPC  &kp BSPC  &kp ENTER
                                    &kp LSHFT &kp KAPP   &kp LGU          &lt 3 INT_HENKAN &kp RGUI &kp RSHFT
@@ -28,7 +28,7 @@
 
          sub_layer {
              bindings = <
- &tog SUB  &trans    &trans    &trans    &trans    &trans        &trans   &trans    &trans    &trans &trans &trans
+ &tog 1  &trans    &trans    &trans    &trans    &trans        &trans   &trans    &trans    &trans &trans &trans
  &trans    &trans    &kp LG(H) &kp UP    &kp LG(L) &trans        &trans   &trans    &trans    &trans &trans &trans
  &trans    &kp PGUP  &kp LEFT  &kp DOWN  &kp RIGHT &kp PGDN      &trans   &trans    &trans    &trans &trans &trans
  &trans    &kp N9    &trans    &trans    &kp N0    &trans        &trans   &trans    &trans    &trans &trans &trans
@@ -44,7 +44,7 @@
  &kp RPAR  &kp CARET &kp AMPS  &kp STAR  &kp COLON &kp RBKT      &trans   &trans    &trans    &trans  &UNDER  &DQT
  &kp LBRC  &kp LBKT  &kp EQUAL &kp PLUS  &kp SEMI  &kp RBRC      &trans   &trans    &LT       &GT     &QMARK  &trans 
                      &trans    &trans    &trans    &trans        &trans   &trans    &trans    &trans
-                               &trans    &trans    &trans        &mo ADJ  &trans    &trans 
+                               &trans    &trans    &trans        &mo 4  &trans    &trans 
              >;
          };
  
@@ -52,7 +52,7 @@
              bindings = <
  &kp F12 &kp F1      &kp F2    &kp F3    &kp F4    &kp F5        &kp F6   &kp F7    &kp F8    &kp F9    &kp F10  &kp F11  
  &trans  &kp N1      &kp N2    &kp N3    &kp N4    &kp N5        &kp N6   &kp N7    &kp N8    &kp N9    &kp N0   &trans
- &kp F11 &kp F1      &kp F2    &kp F3    &kp F4    &kp F5        &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &kp PGUP &mo ADJ
+ &kp F11 &kp F1      &kp F2    &kp F3    &kp F4    &kp F5        &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &kp PGUP &mo 4
  &kp F12 &kp F6      &kp F7    &kp F8    &kp F9    &kp F10       &trans   &kp PGUP  &kp HOME  &kp END   &kp PGDN &trans
                      &trans    &trans    &trans    &trans        &trans   &trans    &trans    &trans
                                &trans    &trans    &trans        &trans   &trans    &trans 
@@ -63,7 +63,7 @@
 &bootloader &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &sys_reset
 &none       &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
 &none       &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&tog SUB    &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&tog 1    &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
                   &trans  &trans &trans &trans &trans &trans &trans &trans
                           &trans &trans &trans &trans &trans &trans 
 	     >;
