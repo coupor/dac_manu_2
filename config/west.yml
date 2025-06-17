@@ -11,7 +11,7 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: dac_manu_2
+    - name: dac_manu_2.git
       remote: dac_manu_2_base
       revision: main
       import: west.yml
