@@ -4,10 +4,16 @@ manifest:
       url-base: https://github.com/zmkfirmware
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
+    - name: dac_manu_2
+      url-base: https://github.com/coupor/dac_manu_2
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: dacmanu2
+      remote: dac_manu_2
+      revision: main
+      import: west.yml
   self:
     path: config
