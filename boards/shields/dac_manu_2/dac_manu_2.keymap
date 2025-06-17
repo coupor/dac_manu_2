@@ -23,7 +23,7 @@
 &kp LSHFT       &kp A    &kp S     &kp D     &kp F      &kp G            &kp H               &kp J    &kp K     &kp L    &kp MINUS &lt 2 SQT
 &kp LCTRL       &kp Z    &kp X     &kp C     &kp V      &kp B            &kp N               &kp M    &kp COMMA &kp DOT  &kp FSLH  &kp LSHFT
                          &kp ENTER &kp DEL   &kp TAB    &kp LCTRL        &mt LALT ESC        &kp SPC  &kp BSPC  &kp ENTER
-                                   &kp LSHFT &kp KAPP   &kp LGUI         &mo 3    &kp RGUI &kp RSHFT
+                                   &kp LSHFT &kp K_APP   &kp LGUI         &mo 3    &kp RGUI &kp RSHFT
              >;
           };
 
@@ -31,7 +31,7 @@
              bindings = <
  &tog 1  &trans    &trans    &trans    &trans    &trans        &trans   &trans    &trans    &trans &trans &trans
  &trans    &trans    &kp LG(H) &kp UP    &kp LG(L) &trans        &trans   &trans    &trans    &trans &trans &trans
- &trans    &kp PGUP  &kp LEFT  &kp DOWN  &kp RIGHT &kp PGDN      &trans   &trans    &trans    &trans &trans &trans
+ &trans    &kp PG_UP  &kp LEFT  &kp DOWN  &kp RIGHT &kp PG_DN      &trans   &trans    &trans    &trans &trans &trans
  &trans    &kp N9    &trans    &trans    &kp N0    &trans        &trans   &trans    &trans    &trans &trans &trans
                      &trans    &trans    &trans    &trans        &trans   &trans    &trans    &trans
                                &trans    &trans    &trans        &trans   &trans    &trans 
@@ -53,8 +53,8 @@
              bindings = <
  &kp F12 &kp F1      &kp F2    &kp F3    &kp F4    &kp F5        &kp F6   &kp F7    &kp F8    &kp F9    &kp F10  &kp F11  
  &trans  &kp N1      &kp N2    &kp N3    &kp N4    &kp N5        &kp N6   &kp N7    &kp N8    &kp N9    &kp N0   &trans
- &kp F11 &kp F1      &kp F2    &kp F3    &kp F4    &kp F5        &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &kp PGUP &mo 4
- &kp F12 &kp F6      &kp F7    &kp F8    &kp F9    &kp F10       &trans   &kp PGUP  &kp HOME  &kp END   &kp PGDN &trans
+ &kp F11 &kp F1      &kp F2    &kp F3    &kp F4    &kp F5        &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &kp PG_UP &mo 4
+ &kp F12 &kp F6      &kp F7    &kp F8    &kp F9    &kp F10       &trans   &kp PG_UP  &kp HOME  &kp END   &kp PG_DN &trans
                      &trans    &trans    &trans    &trans        &trans   &trans    &trans    &trans
                                &trans    &trans    &trans        &trans   &trans    &trans 
              >;
