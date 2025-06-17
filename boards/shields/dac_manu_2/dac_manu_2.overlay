@@ -31,15 +31,16 @@
         wakeup-source;
 
         diode-direction = "col2row";
-	debounce-scan-period-ms = <10>;
-	debounce-press-ms = <30>;
-	debounce-release-ms = <30>;
-	poll-period-ms = <30>;
+	debounce-scan-period-ms = <100>;
+	debounce-press-ms = <130>;
+	debounce-release-ms = <130>;
+	poll-period-ms = <130>;
         col-gpios
             = <&pro_micro 21 GPIO_ACTIVE_HIGH>
             , <&pro_micro 20 GPIO_ACTIVE_HIGH>
             , <&pro_micro 19 GPIO_ACTIVE_HIGH>
-            , <&pro_micro 18 GPIO_ACTIVE_HIGH>
+            , <&pro_micro 18 GPIO_
+	    ACTIVE_HIGH>
             , <&pro_micro 15 GPIO_ACTIVE_HIGH>
             , <&pro_micro 14 GPIO_ACTIVE_HIGH>
             , <&pro_micro 16 GPIO_ACTIVE_HIGH>
