@@ -12,7 +12,7 @@ manifest:
       revision: main
       import: app/west.yml
     - name: dac_manu_2
-      remote: dac_manu_2
+      remote: dac_manu_2_base
       revision: main
       import: west.yml
   self:
