@@ -32,8 +32,8 @@
 
         diode-direction = "col2row";
 	debounce-scan-period-ms = <100>;
-	debounce-press-ms = <130>;
-	debounce-release-ms = <130>;
+	debounce-press-ms = <30>;
+	debounce-release-ms = <30>;
         col-gpios
             = <&pro_micro 21 GPIO_ACTIVE_HIGH>
             , <&pro_micro 20 GPIO_ACTIVE_HIGH>
