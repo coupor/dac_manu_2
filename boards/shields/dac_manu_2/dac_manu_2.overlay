@@ -34,7 +34,6 @@
 	debounce-scan-period-ms = <100>;
 	debounce-press-ms = <130>;
 	debounce-release-ms = <130>;
-	poll-period-ms = <130>;
         col-gpios
             = <&pro_micro 21 GPIO_ACTIVE_HIGH>
             , <&pro_micro 20 GPIO_ACTIVE_HIGH>
