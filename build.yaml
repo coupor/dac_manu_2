@@ -21,3 +21,5 @@
 include:
   - board: nice_nano_v2
     shield: dac_manu_2
+  - board: pro_micro
+    shield: dac_manu_2
